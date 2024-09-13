@@ -90,3 +90,10 @@ celsius2ToFarenhit2()
 celsius3ToFarenhit3()
 farenhitTemp:list[int] = [celsius1ToFarenhit1() , celsius2ToFarenhit2() , celsius3ToFarenhit3() ]
 print(farenhitTemp)
+
+#write a python program to remove negative numbers in an array our list
+numbers:list[int] = [-2 ,-1, 0, 1, 2, 3, 4]
+for num in numbers:
+    if num > 0 :
+        numbers.pop(0)
+print(numbers)
